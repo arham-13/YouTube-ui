@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:  relative  ;
+    
+}
+
+.menu-icon a{
+    color: black;
+    font-size: 23px;
+}
+
+
+.logo{
+    height: 60px;
+    width: 150px;
+    background-image: url(images/logo.png);
+    background-size: cover;
+}
+
+.sec-1{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0%;
+}
+
+.search-bar input{
+    width: 600px;
+    height: 40px;
+    border-color: none;
+    border: 1px solid;
+    padding-left: 10px;
+}
+
+.search-btn button{
+    height: 40px;
+    width: 50px;
+    border: 1px solid;
+    border-left: 0px;
+    background-color: #ffffff;
+}
+
+.mic-icon a{
+    color: black;
+    font-size: 23px;
+}
+
+.icons{
+    position: absolute;
+    right:0%;
+}
+
+.icons a{
+    
+    color: black;
+    font-size: 23px;
+    
+}
+
+.side-bar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 225px;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+    scrollbar-width: none;
+}
+
+ .side-bar a{
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+    height: 50px;
+    display: block;
+    padding: 12px 20px;
+ }
+
+.side-bar a:hover {
+    background-color: #e5e5e5;
+}
+
+ .side-bar i{
+    padding-right: 50px;
+ }
